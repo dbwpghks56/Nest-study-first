@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2017",
+        // 밑에 두 가지 설정이 nest 작동에 필수다.
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
+}
